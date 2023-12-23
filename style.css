@@ -1,0 +1,117 @@
+* {
+    background-color: rgb(115, 0, 255);
+}
+
+h1 {
+    margin-top: 25px;
+    color: rgb(81, 255, 0);
+    font-size: 60px;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin-top: -25px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Comfortaa', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+ol, h4 {
+    margin-top: 35px;
+    margin-left: 70px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Comfortaa', sans-serif;
+    text-align: leftt;
+    line-height: 30px; /*coloca espaçamento entre as linhas*/
+}
+
+.texto {
+    margin: 0 50px;
+    color: rgb(81, 255, 0);
+    font-size: 22px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px; /*coloca espaçamento entre as letras*/
+}
+
+.dados {
+    margin-top: 35px;
+    margin-left: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#num1, #num2 {
+    margin-top: 8px;
+    margin-left: 75px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Comfortaa', sans-serif;
+    width: 7em;
+    height: 40px;
+    border-color: rgb(81, 255, 0);
+    border-style: solid;
+    border-width: 2.8px;
+    border-radius: 25px;
+    outline: none; /*tira a borda interna do input*/
+}
+
+input[type="number"]::-webkit-inner-spin-button { /*tira as setas do input type number*/
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input,
+input::placeholder { /*centraliza o texto do input*/
+    text-align: center;
+}
+
+#operadores {
+    font-size: 60px;
+    font-family: 'Comfortaa', sans-serif;
+    color: rgb(81, 255, 0);
+    border: none;
+    outline: none;
+}
+
+.btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center
+}
+
+#validar, #calcular {
+    background-color: rgb(247, 99, 6);
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-family: 'Paytone One', sans-serif;
+    border: none;
+    border-radius: 25px;
+    width: 7em;
+    height: 45px;
+    margin: 0 25px;
+}
+
+#resposta {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Paytone One', sans-serif;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+
+div {
+    margin: 20px;
+}
