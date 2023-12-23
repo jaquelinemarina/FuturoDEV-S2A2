@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&family=Paytone+One&display=swap"rel="stylesheet">
+    <title id="title">Calculadora</title>
+</head>
+
+<body>
+    <h1>Calculadora da Jaque</h1>
+    <p>Essa calculadora é para você que, assim como eu, é péssimo em
+        matemática.</p>
+
+    <h4>Passo a passo:</h4>
+    <ol>
+        <li>Digite no espaço apropriado dois números a serem
+            calculados.</li>
+        <li>Selecione o tipo de operação matemática desejada.</li>
+        <li>Caso esteja em dúvida se os dados preenchidos estão corretos
+            clique em "Validar".</li>
+        <li>Em seguida, clique em "Calcular" e o resultado da operação
+            será
+            exibido logo abaixo.</li>
+        <li>Seja feliz! Sem quebrar a cabeça com cálculos matemáticos
+            chatos e sem graça.</li>
+    </ol>
+
+    <section class="dados">
+      
+        <div>
+        <label class="texto">DIGITE UM NÚMERO</label><br/>
+        <input id="num1" type="number">
+        </div>
+
+        <select id="operadores" name="operadores">
+            <option value="adição">+</option>
+            <option value="subtração">-</option>
+            <option value="multiplicação">*</option>
+            <option value="divisão">/</option>
+        </select>
+
+        <div>
+        <label class="texto">DIGITE OUTRO NÚMERO</label><br/>
+        <input id="num2" type="number">
+        </div>
+      
+    </section>
+
+    <div class="btn">
+        <button id=validar type="submit" onclick="realizarValidação()">VALIDAR</button>
+        <button id=calcular type="submit" onclick="realizarCalculo()">CALCULAR</button>
+    </div>
+
+    <span id="resposta">RESULTADO:</span>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
